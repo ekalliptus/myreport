@@ -1,4 +1,4 @@
-# Laporan Bulanan – Presentasi Vite + Vue
+# Laporan Bulanan: Presentasi Vite + Vue
 
 Situs presentasi interaktif untuk laporan bulanan berbasis Vite + Vue 3 dengan animasi GSAP dan visualisasi Chart.js. Data diambil langsung dari Google Sheets.
 
@@ -12,14 +12,14 @@ Demo lokal: jalankan dev server dan navigasi antara Overview, Trends, Categories
 - Desain modern, responsif, dan siap presentasi.
 
 ## Struktur
-- src/services/sheets.js — layanan data untuk fetch dan normalisasi [fetchSheetData()](src/services/sheets.js:1)
-- src/router/index.js — router halaman
-- src/views/Overview.vue — ringkasan dan grafik utama
-- src/views/Trends.vue — tren bulanan, MA, dan pertumbuhan MoM
-- src/views/Categories.vue — distribusi kategori dan tabel
-- src/components/MetricCard.vue — kartu metrik ringkas
-- src/components/ChartCard.vue — wrapper chart terstylisasi
-- src/App.vue — shell aplikasi dan transisi halaman
+- src/services/sheets.js: layanan data untuk fetch dan normalisasi [fetchSheetData()](src/services/sheets.js:1)
+- src/router/index.js: router halaman
+- src/views/Overview.vue: ringkasan dan grafik utama
+- src/views/Trends.vue: tren bulanan, MA, dan pertumbuhan MoM
+- src/views/Categories.vue: distribusi kategori dan tabel
+- src/components/MetricCard.vue: kartu metrik ringkas
+- src/components/ChartCard.vue: wrapper chart terstylisasi
+- src/App.vue: shell aplikasi dan transisi halaman
 
 ## Persiapan
 Pastikan Node.js (v18+) terpasang.
